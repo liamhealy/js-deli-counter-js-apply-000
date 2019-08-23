@@ -24,10 +24,10 @@ function currentLine(line) {
     currentLine = currentLine + `:`;
     for(var i = 0; i < line.length; i++) {
       if(line[i] == line.length - 1) {
-        currentLine += ` ${i}. ${line[i]}`;
+        currentLine += ` ${i + 1}. ${line[i]}`;
       }
       else {
-        currentLine += ` ${i}. ${line[i]},`;
+        currentLine += ` ${i + 1}. ${line[i]},`;
       }
       return currentLine;
     }
