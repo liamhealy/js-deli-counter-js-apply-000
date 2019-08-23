@@ -15,7 +15,7 @@ function nowServing(line) {
         currentLine += ` ${i}. ${line[i]}`;
       }
       else {
-        currentLine += ` ${i}. ${line[i]},`'
+        currentLine += ` ${i}. ${line[i]},`;
       }    
     }
   }
