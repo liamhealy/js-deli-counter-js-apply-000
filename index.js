@@ -10,7 +10,7 @@ function nowServing(line) {
   }
   else {
     nextCustomer = line[0];
-    line.pop();
+    line.splice(0, 1);
   }
 }
 
