@@ -16,7 +16,6 @@ function nowServing(line) {
       }
       else {
         currentLine += ` ${i}. ${line[i]},`'
-    
       }    
     }
   }
