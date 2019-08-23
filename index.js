@@ -9,6 +9,7 @@ function nowServing(line) {
     return currentLine + ` empty.`;
   }
   else {
+    currentLine = currentLine + `:`
     for(var i = 0; i < line.length; i++) {
       
     }
