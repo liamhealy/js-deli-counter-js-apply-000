@@ -4,11 +4,13 @@ function takeANumber(line, customer) {
 }
 
 function nowServing(line) {
-  var currentLine = `The line is currently `;
+  var currentLine = `The line is currently`;
   if(line.length == 0) {
-    return currentLine + `empty.`;
+    return currentLine + ` empty.`;
   }
   else {
-    
+    for(var i = 0; i < line.length; i++) {
+      
+    }
   }
 }
