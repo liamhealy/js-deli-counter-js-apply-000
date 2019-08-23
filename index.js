@@ -4,7 +4,11 @@ function takeANumber(line, customer) {
 }
 
 function nowServing(line) {
+  var currentLine = `The line is currently empty`;
   if(line.length == 0) {
-    return `The line is currently empty`;
+    return currentLine;
+  }
+  else {
+    
   }
 }
