@@ -29,7 +29,7 @@ function currentLine(line) {
       else {
         currentLine += ` ${i + 1}. ${line[i]},`;
       }
-      return currentLine;
     }
+    return currentLine;
   }
 }
