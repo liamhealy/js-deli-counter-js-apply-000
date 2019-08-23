@@ -11,6 +11,7 @@ function nowServing(line) {
   else {
     nextCustomer = line[0];
     line.splice(0, 1);
+    return nextCustomer;
   }
 }
 
