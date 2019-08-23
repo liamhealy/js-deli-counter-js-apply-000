@@ -14,6 +14,7 @@ function nowServing(line) {
       if(line[i] == line.length - 1) {
         currentLine += ` ${i}. ${line[i]}`
       }
+      else {currentLine += ` ${i}. ${line[i]},`'
     }
   }
 }
