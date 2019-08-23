@@ -6,7 +6,7 @@ function takeANumber(line, customer) {
 function nowServing(line) {
   var currentLine = `The line is currently `;
   if(line.length == 0) {
-    return currentLine;
+    return currentLine + `empty.`;
   }
   else {
     
