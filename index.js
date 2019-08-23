@@ -4,11 +4,13 @@ function takeANumber(line, customer) {
 }
 
 function nowServing(line) {
+  var nextCustomer = `Nobody`;
   if(line.length == 0) {
     return `There is nobody waiting to be served!`;
   }
   else {
-    return line[0];
+    nextCustomer = line[0];
+    line.pop();
   }
 }
 
