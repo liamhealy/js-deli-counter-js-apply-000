@@ -23,7 +23,7 @@ function currentLine(line) {
   else {
     currentLine = currentLine + `:`;
     for(var i = 0; i < line.length; i++) {
-      if(line[i] == line.length - 1) {
+      if(i == line.length - 1) {
         currentLine += ` ${i + 1}. ${line[i]}`;
       }
       else {
